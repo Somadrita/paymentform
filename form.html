@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div><img src="/pngwing.com (3).png"></div>
+    
+    <div class="content">
+        <form action="">
+          
+        <header>
+        <h1>Payment Form</h1>
+    </header>
+    <div class="container">
+        <h2>Contact Information</h2>
+      
+      
+        <p>Required Fields are followed by *</p>
+        <p>
+            Name:*<input type="text" name="name"required>
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>Male<input type="radio"name="gender"id="male">
+       Female<input type="radio"name="gender"id="female">
+       Other<input type="radio"name="gender"id="other">
+    </p>
+    </fieldset>
+    <p>Address:<textarea name="address" id="address"cols="100"row ="10"></textarea></p>
+    <p>email:*<input type="email"name="Email" id="Email"placeholder="abcdefgh@gmail.com"required></p>
+    <p>Pincode:*<input type="number"name="pincode" id="pincode"placeholder="123456"required></p>
+    <p>Phone number:<input type="number"name="phone number" id="phone number"placeholder="0123456789"></p>
+    <h2>Payment Information</h2>
+    <p>Card Type:*
+        <select name="card_type" id="card_type"required>
+        <option value="">--Select a card type--</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Debit card">Debit card</option>
+    </select>
+     </p>
+     <p>
+         Card Number:*<input type="number"name="card number"id="card number"placeholder="1111-2222-3333-4444"required>
+     </p>
+     <p>
+         CVV*:<input type="password"name="CVV"id="CVV"placeholder="123"required>
+         <p>Expiration Date:*<input type="date" name="exp_date" id="exp_date"placeholder="dd/mm/yyyy"required>
+        
+        </p>
+            </p>
+         <centre><input type="submit"value="pay"></centre>
+
+    </form>
+</div>
+</div>
+</body>
+</html>
